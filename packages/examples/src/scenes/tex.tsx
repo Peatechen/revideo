@@ -1,5 +1,5 @@
-import {Latex, makeScene2D} from '@revideo/2d';
-import {createRef, waitFor} from '@revideo/core';
+import {Latex, makeScene2D} from '@flammable7841/2d';
+import {createRef, waitFor} from '@flammable7841/core';
 
 export default makeScene2D('tex', function* (view) {
   const tex = createRef<Latex>();

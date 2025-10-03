@@ -1,5 +1,5 @@
-import type {SerializedVector2, Vector2} from '@revideo/core';
-import {BBox, transformVectorAsPoint} from '@revideo/core';
+import type {SerializedVector2, Vector2} from '@flammable7841/core';
+import {BBox, transformVectorAsPoint} from '@flammable7841/core';
 import type {CurveProfile} from '../curves';
 import type {PolynomialSegment} from '../curves/PolynomialSegment';
 import {computed} from '../decorators';

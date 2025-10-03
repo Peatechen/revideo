@@ -1,4 +1,4 @@
-import {getFullPreviewSettings, getFullRenderingSettings} from '@revideo/core';
+import {getFullPreviewSettings, getFullRenderingSettings} from '@flammable7841/core';
 import {useApplication} from '../contexts';
 
 export function useSharedSettings() {

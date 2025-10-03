@@ -1,5 +1,5 @@
 {
-  "name": "@revideo/create",
+  "name": "@flammable7841/create",
   "version": "0.10.4",
   "description": "Quickly scaffold revideo projects",
   "main": "index.js",
@@ -20,15 +20,15 @@
     "url": "https://github.com/havenhq/revideo.git"
   },
   "devDependencies": {
-    "@revideo/2d": "0.10.4",
-    "@revideo/core": "0.10.4",
-    "@revideo/ffmpeg": "0.10.4",
-    "@revideo/renderer": "0.10.4",
-    "@revideo/ui": "0.10.4",
-    "@revideo/vite-plugin": "0.10.4"
+    "@flammable7841/2d": "0.10.4",
+    "@flammable7841/core": "0.10.4",
+    "@flammable7841/ffmpeg": "0.10.4",
+    "@flammable7841/renderer": "0.10.4",
+    "@flammable7841/ui": "0.10.4",
+    "@flammable7841/vite-plugin": "0.10.4"
   },
   "dependencies": {
-    "@revideo/telemetry": "0.10.4",
+    "@flammable7841/telemetry": "0.10.4",
     "minimist": "^1.2.8",
     "prompts": "^2.4.2"
   }

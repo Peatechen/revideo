@@ -1,5 +1,5 @@
-import type {Vector2} from '@revideo/core';
-import {clamp} from '@revideo/core';
+import type {Vector2} from '@flammable7841/core';
+import {clamp} from '@flammable7841/core';
 import {CircleSegment} from './CircleSegment';
 import type {CurveProfile} from './CurveProfile';
 import {LineSegment} from './LineSegment';

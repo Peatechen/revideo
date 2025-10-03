@@ -1,5 +1,5 @@
 {
-  "name": "@revideo/template",
+  "name": "@flammable7841/template",
   "private": true,
   "version": "0.0.0",
   "description": "Basic project template for revideo",
@@ -12,13 +12,13 @@
     "render": "tsc && node dist/render.js"
   },
   "dependencies": {
-    "@revideo/2d": "*",
-    "@revideo/core": "*",
-    "@revideo/ffmpeg": "*",
-    "@revideo/renderer": "*"
+    "@flammable7841/2d": "*",
+    "@flammable7841/core": "*",
+    "@flammable7841/ffmpeg": "*",
+    "@flammable7841/renderer": "*"
   },
   "devDependencies": {
-    "@revideo/ui": "*",
-    "@revideo/vite-plugin": "*"
+    "@flammable7841/ui": "*",
+    "@flammable7841/vite-plugin": "*"
   }
 }

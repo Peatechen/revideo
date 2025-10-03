@@ -14,9 +14,9 @@ export default [
     plugins: [
       {
         resolveId(id) {
-          if (id.startsWith('@revideo/core')) {
+          if (id.startsWith('@flammable7841/core')) {
             return {
-              id: '@revideo/core',
+              id: '@flammable7841/core',
               external: true,
             };
           }

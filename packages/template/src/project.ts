@@ -1,4 +1,4 @@
-import {Color, makeProject, Vector2} from '@revideo/core';
+import {Color, makeProject, Vector2} from '@flammable7841/core';
 
 import example from './example';
 
@@ -22,7 +22,7 @@ export const project = makeProject({
     },
     rendering: {
       exporter: {
-        name: '@revideo/core/wasm',
+        name: '@flammable7841/core/wasm',
       },
       fps: 60,
       resolutionScale: 1,

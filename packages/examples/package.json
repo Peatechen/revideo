@@ -1,5 +1,5 @@
 {
-  "name": "@revideo/examples",
+  "name": "@flammable7841/examples",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -7,12 +7,12 @@
     "build": "tsc && vite build --base /examples/"
   },
   "dependencies": {
-    "@revideo/2d": "*",
-    "@revideo/core": "*",
-    "@revideo/ffmpeg": "*"
+    "@flammable7841/2d": "*",
+    "@flammable7841/core": "*",
+    "@flammable7841/ffmpeg": "*"
   },
   "devDependencies": {
-    "@revideo/ui": "*",
-    "@revideo/vite-plugin": "*"
+    "@flammable7841/ui": "*",
+    "@flammable7841/vite-plugin": "*"
   }
 }

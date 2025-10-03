@@ -1,5 +1,5 @@
-import {Circle, Layout, Rect, makeScene2D} from '@revideo/2d';
-import {all, createRef} from '@revideo/core';
+import {Circle, Layout, Rect, makeScene2D} from '@flammable7841/2d';
+import {all, createRef} from '@flammable7841/core';
 
 const RED = '#ff6470';
 

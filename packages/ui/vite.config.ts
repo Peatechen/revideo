@@ -7,9 +7,9 @@ export default defineConfig({
   resolve: {
     alias: {
       // eslint-disable-next-line @typescript-eslint/naming-convention
-      '@revideo/ui': '/src/main.tsx',
+      '@flammable7841/ui': '/src/main.tsx',
       // eslint-disable-next-line @typescript-eslint/naming-convention
-      '@revideo/2d/editor': '@revideo/2d/src/editor',
+      '@flammable7841/2d/editor': '@flammable7841/2d/src/editor',
     },
   },
   build: {
@@ -19,7 +19,7 @@ export default defineConfig({
       fileName: 'main',
     },
     rollupOptions: {
-      external: [/^@revideo\/core/, /^@?preact/],
+      external: [/^@flammable7841\/core/, /^@?preact/],
     },
   },
   plugins: [

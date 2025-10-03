@@ -1,4 +1,4 @@
-import {LogLevel} from '@revideo/core';
+import {LogLevel} from '@flammable7841/core';
 import {useEffect, useRef, useState} from 'preact/hooks';
 import {useApplication, usePanels} from '../../contexts';
 import {useReducedMotion} from '../../hooks';

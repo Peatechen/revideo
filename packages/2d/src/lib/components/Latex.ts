@@ -1,5 +1,5 @@
-import type {SignalValue, SimpleSignal} from '@revideo/core';
-import {DependencyContext, useLogger} from '@revideo/core';
+import type {SignalValue, SimpleSignal} from '@flammable7841/core';
+import {DependencyContext, useLogger} from '@flammable7841/core';
 import type {LiteAdaptor} from 'mathjax-full/js/adaptors/liteAdaptor';
 import {liteAdaptor} from 'mathjax-full/js/adaptors/liteAdaptor';
 import type {MathDocument} from 'mathjax-full/js/core/MathDocument';
@@ -23,7 +23,7 @@ export interface LatexProps extends ImgProps {
  *
  * @preview
  * ```tsx editor
- * import {Latex, makeScene2D} from '@revideo/2d';
+ * import {Latex, makeScene2D} from '@flammable7841/2d';
  *
  * export default makeScene2D(function* (view) {
  *   view.add(

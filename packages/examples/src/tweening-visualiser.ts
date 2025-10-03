@@ -1,4 +1,4 @@
-import {makeProject} from '@revideo/core';
+import {makeProject} from '@flammable7841/core';
 
 import scene from './scenes/tweening-visualiser';
 

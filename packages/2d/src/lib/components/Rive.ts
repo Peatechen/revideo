@@ -1,5 +1,5 @@
-import type {SignalValue, SimpleSignal} from '@revideo/core';
-import {BBox, useThread} from '@revideo/core';
+import type {SignalValue, SimpleSignal} from '@flammable7841/core';
+import {BBox, useThread} from '@flammable7841/core';
 import type {
   Artboard,
   File,

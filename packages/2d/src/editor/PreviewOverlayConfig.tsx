@@ -1,11 +1,11 @@
-import {transformVectorAsPoint, Vector2} from '@revideo/core';
-import type {PluginOverlayConfig} from '@revideo/ui';
+import {transformVectorAsPoint, Vector2} from '@flammable7841/core';
+import type {PluginOverlayConfig} from '@flammable7841/ui';
 import {
   MouseButton,
   OverlayWrapper,
   useViewportContext,
   useViewportMatrix,
-} from '@revideo/ui';
+} from '@flammable7841/ui';
 import type {ComponentChildren} from 'preact';
 import {usePluginState} from './Provider';
 

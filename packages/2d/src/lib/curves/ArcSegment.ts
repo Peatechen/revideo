@@ -5,7 +5,7 @@ import {
   Vector2,
   lazy,
   transformVector,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import {View2D} from '../components/View2D';
 import type {CurvePoint} from './CurvePoint';
 import {Segment} from './Segment';

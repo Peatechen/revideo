@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import {EventName, sendEvent} from '@revideo/telemetry';
+import {EventName, sendEvent} from '@flammable7841/telemetry';
 import {Command} from 'commander';
 import {launchEditor} from './editor';
 import {createServer} from './server/index';

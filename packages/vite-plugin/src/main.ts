@@ -77,7 +77,7 @@ export interface MotionCanvasPluginConfig {
    * - `index` - Receives a list of all projects as its first argument and
    *             creates the initial page for selecting a project.
    *
-   * @defaultValue '\@revideo/ui'
+   * @defaultValue '\@flammable7841/ui'
    */
   editor?: string;
 
@@ -91,7 +91,7 @@ export default ({
   project = './src/project.ts',
   output = './output',
   bufferedAssets = /^$/,
-  editor = '@revideo/ui',
+  editor = '@flammable7841/ui',
   buildForEditor,
 }: MotionCanvasPluginConfig = {}): Plugin[] => {
   const plugins: PluginOptions[] = [];

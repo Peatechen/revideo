@@ -1,4 +1,4 @@
-import {makeProject} from '@revideo/core';
+import {makeProject} from '@flammable7841/core';
 
 import first from './scenes/transitions-first';
 import second from './scenes/transitions-second';

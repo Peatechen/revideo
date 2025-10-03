@@ -1,4 +1,4 @@
-import {renderVideo} from '@revideo/renderer';
+import {renderVideo} from '@flammable7841/renderer';
 import axios from 'axios';
 import type {Request, Response} from 'express';
 import path from 'path';
@@ -17,7 +17,7 @@ export async function render(req: Request, res: Response) {
 async function renderWithCallback(req: Request, res: Response) {
   // TODO: validate request body
   const {variables, callbackUrl, settings} = req.body;
-  const tempProjectName = uuidv4();
+  const tempProjectName = settings?.outFile ?? `${uuidv4()}.mp4`;
   const outputFileName = `${tempProjectName}.mp4`;
   res.json({tempProjectName});
 
@@ -77,7 +77,7 @@ async function renderWithCallback(req: Request, res: Response) {
 async function renderWithoutCallback(req: Request, res: Response) {
   // TODO: validate request body
   const {variables, streamProgress, settings} = req.body;
-  const tempProjectName: `${string}.mp4` = `${uuidv4()}.mp4`;
+  const tempProjectName: `${string}.mp4` = settings?.outFile ?? `${uuidv4()}.mp4`;
   const resultFilePath = path.join(process.cwd(), `output/${tempProjectName}`);
 
   if (streamProgress) {

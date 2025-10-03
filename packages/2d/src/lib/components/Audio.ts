@@ -1,4 +1,4 @@
-import {DependencyContext, PlaybackState} from '@revideo/core';
+import {DependencyContext, PlaybackState} from '@flammable7841/core';
 import {computed, nodeName} from '../decorators';
 import type {MediaProps} from './Media';
 import {Media} from './Media';

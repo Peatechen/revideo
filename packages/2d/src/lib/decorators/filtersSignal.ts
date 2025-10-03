@@ -4,14 +4,14 @@ import type {
   SimpleSignal,
   ThreadGenerator,
   TimingFunction,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import {
   SignalContext,
   all,
   deepLerp,
   easeInOutCubic,
   unwrap,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import type {FilterName} from '../partials';
 import {FILTERS, Filter} from '../partials';
 import {addInitializer} from './initializers';

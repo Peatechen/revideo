@@ -9,7 +9,7 @@ export default defineConfig({
       fileName: 'main',
     },
     rollupOptions: {
-      external: ['@revideo/core'],
+      external: ['@flammable7841/core'],
     },
   },
   plugins: [

@@ -6,18 +6,18 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: '@revideo/ui',
-        replacement: '@revideo/ui/src/main.tsx',
+        find: '@flammable7841/ui',
+        replacement: '@flammable7841/ui/src/main.tsx',
       },
       {
-        find: '@revideo/2d/editor',
-        replacement: '@revideo/2d/src/editor',
+        find: '@flammable7841/2d/editor',
+        replacement: '@flammable7841/2d/src/editor',
       },
       {
-        find: /@revideo\/2d(\/lib)?/,
-        replacement: '@revideo/2d/src/lib',
+        find: /@flammable7841\/2d(\/lib)?/,
+        replacement: '@flammable7841/2d/src/lib',
       },
-      {find: '@revideo/core', replacement: '@revideo/core/src'},
+      {find: '@flammable7841/core', replacement: '@flammable7841/core/src'},
     ],
   },
   plugins: [

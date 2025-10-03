@@ -1,5 +1,5 @@
 {
-  "name": "@revideo/vite-plugin",
+  "name": "@flammable7841/vite-plugin",
   "version": "0.10.4",
   "description": "A Vite plugin for revideo projects",
   "main": "lib/index.js",
@@ -19,13 +19,13 @@
     "lib"
   ],
   "devDependencies": {
-    "@revideo/telemetry": "0.10.4",
+    "@flammable7841/telemetry": "0.10.4",
     "@types/follow-redirects": "^1.14.1",
     "@types/formidable": "^3.4.5",
     "@types/mime-types": "^2.1.1"
   },
   "dependencies": {
-    "@revideo/ffmpeg": "0.10.4",
+    "@flammable7841/ffmpeg": "0.10.4",
     "fast-glob": "^3.3.1",
     "follow-redirects": "^1.15.2",
     "formidable": "^3.5.1",
