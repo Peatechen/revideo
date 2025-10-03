@@ -1,5 +1,5 @@
-import type {Signal} from '@revideo/core';
-import {Color} from '@revideo/core';
+import type {Signal} from '@flammable7841/core';
+import {Color} from '@flammable7841/core';
 import type {CanvasStyle, PossibleCanvasStyle} from '../partials';
 import {canvasStyleParser} from '../utils';
 import {initial, interpolation, parser, signal} from './signal';

@@ -5,7 +5,7 @@ import type {
   SimpleSignal,
   ThreadGenerator,
   TimingFunction,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import {
   BBox,
   Matrix2D,
@@ -19,7 +19,7 @@ import {
   threadable,
   tween,
   useLogger,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import {computed, signal} from '../decorators';
 import type {DesiredLength, PossibleCanvasStyle} from '../partials';
 import {applyTransformDiff, getTransformDiff} from '../utils/diff';

@@ -1,1 +1,1 @@
-/// <reference types="@revideo/core/project" />
+/// <reference types="@flammable7841/core/project" />

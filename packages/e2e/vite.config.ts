@@ -1,6 +1,6 @@
 /// <reference types="vitest" />
 
-import motionCanvas from '@revideo/vite-plugin';
+import motionCanvas from '@flammable7841/vite-plugin';
 import {defineConfig} from 'vite';
 
 export default defineConfig({

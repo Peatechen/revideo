@@ -1,5 +1,5 @@
-import type {SignalValue, SimpleSignal} from '@revideo/core';
-import {BBox, capitalize, lazy, textLerp} from '@revideo/core';
+import type {SignalValue, SimpleSignal} from '@flammable7841/core';
+import {BBox, capitalize, lazy, textLerp} from '@flammable7841/core';
 import {
   computed,
   initial,

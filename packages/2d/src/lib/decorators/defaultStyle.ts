@@ -1,4 +1,4 @@
-import {capitalize} from '@revideo/core';
+import {capitalize} from '@flammable7841/core';
 import type {Layout} from '../components';
 
 export function defaultStyle<T>(

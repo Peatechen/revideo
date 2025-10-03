@@ -1,5 +1,5 @@
-import {Circle, makeScene2D} from '@revideo/2d';
-import {PlopSpring, SmoothSpring, createRef, spring} from '@revideo/core';
+import {Circle, makeScene2D} from '@flammable7841/2d';
+import {PlopSpring, SmoothSpring, createRef, spring} from '@flammable7841/core';
 
 export default makeScene2D('tweening-spring', function* (view) {
   const circle = createRef<Circle>();

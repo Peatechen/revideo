@@ -1,4 +1,4 @@
-import {Spacing} from '@revideo/core';
+import {Spacing} from '@flammable7841/core';
 import {compound} from './compound';
 import {wrapper} from './signal';
 

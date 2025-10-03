@@ -1,6 +1,6 @@
-import type {RenderVideoUserProjectSettings} from '@revideo/core';
-import type {FfmpegSettings} from '@revideo/ffmpeg';
-import {ffmpegSettings} from '@revideo/ffmpeg';
+import type {RenderVideoUserProjectSettings} from '@flammable7841/core';
+import type {FfmpegSettings} from '@flammable7841/ffmpeg';
+import {ffmpegSettings} from '@flammable7841/ffmpeg';
 import * as fs from 'fs';
 import * as path from 'path';
 import type {Plugin} from 'vite';
@@ -57,8 +57,8 @@ export function rendererPlugin(
     async load(id) {
       if (id.startsWith('\x00virtual:renderer')) {
         return `\
-            import {render} from '@revideo/renderer/lib/client/render';
-            import {Vector2} from '@revideo/core';
+            import {render} from '@flammable7841/renderer/lib/client/render';
+            import {Vector2} from '@flammable7841/core';
             import project from '${projectFile}';
 
             // Read video variables

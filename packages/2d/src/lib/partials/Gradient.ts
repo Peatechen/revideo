@@ -4,8 +4,8 @@ import type {
   SignalValue,
   SimpleSignal,
   Vector2Signal,
-} from '@revideo/core';
-import {Color, unwrap} from '@revideo/core';
+} from '@flammable7841/core';
+import {Color, unwrap} from '@flammable7841/core';
 import {computed} from '../decorators/computed';
 import {initial, initializeSignals, signal} from '../decorators/signal';
 import {vector2Signal} from '../decorators/vector2Signal';

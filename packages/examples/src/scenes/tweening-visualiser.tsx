@@ -7,14 +7,14 @@ import {
   Rect,
   Txt,
   makeScene2D,
-} from '@revideo/2d';
+} from '@flammable7841/2d';
 import {
   all,
   createSignal,
   easeInOutBounce,
   linear,
   waitFor,
-} from '@revideo/core';
+} from '@flammable7841/core';
 
 export default makeScene2D('tweening-visualizer', function* (view) {
   // Signals

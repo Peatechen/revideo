@@ -1,4 +1,4 @@
-import type {Project} from '@revideo/core';
+import type {Project} from '@flammable7841/core';
 
 export function editor(project: Project): void;
 

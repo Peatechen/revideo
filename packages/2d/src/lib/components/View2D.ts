@@ -1,5 +1,5 @@
-import type {SimpleSignal} from '@revideo/core';
-import {PlaybackState, lazy} from '@revideo/core';
+import type {SimpleSignal} from '@flammable7841/core';
+import {PlaybackState, lazy} from '@flammable7841/core';
 import {initial, signal} from '../decorators';
 import {nodeName} from '../decorators/nodeName';
 import {useScene2D} from '../scenes/useScene2D';

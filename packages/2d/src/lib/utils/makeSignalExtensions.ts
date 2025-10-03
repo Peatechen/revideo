@@ -1,5 +1,5 @@
-import type {SignalExtensions} from '@revideo/core';
-import {capitalize} from '@revideo/core';
+import type {SignalExtensions} from '@flammable7841/core';
+import {capitalize} from '@flammable7841/core';
 import type {PropertyMetadata} from '../decorators';
 
 export function makeSignalExtensions<TSetterValue, TValue extends TSetterValue>(

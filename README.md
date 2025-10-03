@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://lerna.js.org"><img src="https://img.shields.io/badge/published%20with-lerna-c084fc?style=flat" alt="published with lerna"></a>
   <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/powered%20by-vite-646cff?style=flat" alt="powered by vite"></a>
-  <a href="https://www.npmjs.com/package/@revideo/core"><img src="https://img.shields.io/npm/v/@revideo/core?style=flat" alt="npm package version"></a>
+  <a href="https://www.npmjs.com/package/@flammable7841/core"><img src="https://img.shields.io/npm/v/@flammable7841/core?style=flat" alt="npm package version"></a>
   <a href="https://discord.com/invite/JDjbfp6q2G"><img src="https://img.shields.io/discord/1071029581009657896?style=flat&logo=discord&logoColor=fff&color=404eed" alt="discord"></a>
 </p>
 <br/>
@@ -43,15 +43,15 @@ our [Discord server](https://discord.com/invite/MVJsrqjy3j).
 To create an example project, run the following command:
 
 ```bash
-npm init @revideo@latest
+npm init @flammable7841@latest
 ```
 
 The example project will have the following code, which defines the video shown
 below.
 
 ```tsx
-import {Audio, Img, Video, makeScene2D} from '@revideo/2d';
-import {all, chain, createRef, waitFor} from '@revideo/core';
+import {Audio, Img, Video, makeScene2D} from '@flammable7841/2d';
+import {all, chain, createRef, waitFor} from '@flammable7841/core';
 
 export default makeScene2D('scene', function* (view) {
   const logoRef = createRef<Img>();

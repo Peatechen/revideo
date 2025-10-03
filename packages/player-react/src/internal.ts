@@ -1,7 +1,7 @@
-import type {Project} from '@revideo/core';
-import {Player, Stage, getFullPreviewSettings} from '@revideo/core';
+import type {Project} from '@flammable7841/core';
+import {Player, Stage, getFullPreviewSettings} from '@flammable7841/core';
 
-import {Vector2} from '@revideo/core';
+import {Vector2} from '@flammable7841/core';
 
 const stylesNew = `
 .overlay {

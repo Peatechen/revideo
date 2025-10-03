@@ -1,8 +1,8 @@
 import type {
   FfmpegExporterOptions,
   RenderVideoUserProjectSettings,
-} from '@revideo/core';
-import type {FfmpegSettings} from '@revideo/ffmpeg';
+} from '@flammable7841/core';
+import type {FfmpegSettings} from '@flammable7841/ffmpeg';
 import {
   audioCodecs,
   concatenateMedia,
@@ -11,9 +11,9 @@ import {
   extensions,
   getVideoDuration,
   mergeAudioWithVideo,
-} from '@revideo/ffmpeg';
-import {EventName, sendEvent} from '@revideo/telemetry';
-import motionCanvas from '@revideo/vite-plugin';
+} from '@flammable7841/ffmpeg';
+import {EventName, sendEvent} from '@flammable7841/telemetry';
+import motionCanvas from '@flammable7841/vite-plugin';
 import * as fs from 'fs';
 import * as os from 'os';
 import * as path from 'path';
@@ -370,7 +370,7 @@ async function cleanup(
 const defaultSettings: RenderSettings = {
   projectSettings: {
     exporter: {
-      name: '@revideo/core/wasm',
+      name: '@flammable7841/core/wasm',
     },
   },
 };

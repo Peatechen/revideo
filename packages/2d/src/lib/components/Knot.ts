@@ -3,8 +3,8 @@ import type {
   Signal,
   SignalValue,
   Vector2Signal,
-} from '@revideo/core';
-import {transformVectorAsPoint, Vector2} from '@revideo/core';
+} from '@flammable7841/core';
+import {transformVectorAsPoint, Vector2} from '@flammable7841/core';
 import type {KnotInfo} from '../curves';
 import {
   cloneable,

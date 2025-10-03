@@ -1,4 +1,4 @@
-import {createComputed} from '@revideo/core';
+import {createComputed} from '@flammable7841/core';
 import {addInitializer} from './initializers';
 
 /**

@@ -1,4 +1,4 @@
-import {BBox, Vector2} from '@revideo/core';
+import {BBox, Vector2} from '@flammable7841/core';
 
 import {Polynomial} from './Polynomial';
 

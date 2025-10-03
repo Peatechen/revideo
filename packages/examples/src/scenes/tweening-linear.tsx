@@ -1,5 +1,5 @@
-import {Circle, makeScene2D} from '@revideo/2d';
-import {createRef, map, tween} from '@revideo/core';
+import {Circle, makeScene2D} from '@flammable7841/2d';
+import {createRef, map, tween} from '@flammable7841/core';
 
 export default makeScene2D('tweening-linear', function* (view) {
   const circle = createRef<Circle>();

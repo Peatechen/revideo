@@ -1,10 +1,10 @@
-import type {FFmpegExporterSettings} from '@revideo/ffmpeg';
+import type {FFmpegExporterSettings} from '@flammable7841/ffmpeg';
 import {
   FFmpegExporterServer,
   VideoFrameExtractor,
   generateAudio,
   mergeMedia,
-} from '@revideo/ffmpeg';
+} from '@flammable7841/ffmpeg';
 import {existsSync, unlinkSync} from 'fs';
 import type {IncomingMessage, ServerResponse} from 'http';
 import type {Plugin, WebSocketServer} from 'vite';

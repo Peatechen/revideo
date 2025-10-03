@@ -1,7 +1,7 @@
-import {Img, makeScene2D} from '@revideo/2d';
-import {all, createRef} from '@revideo/core';
+import {Img, makeScene2D} from '@flammable7841/2d';
+import {all, createRef} from '@flammable7841/core';
 
-import logoSvg from '@revideo/examples/assets/logo.svg';
+import logoSvg from '@flammable7841/examples/assets/logo.svg';
 
 export default makeScene2D('media-image', function* (view) {
   const imageRef = createRef<Img>();

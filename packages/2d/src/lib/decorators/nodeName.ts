@@ -1,7 +1,7 @@
 /**
  * @internal
  */
-export const NODE_NAME = Symbol.for('@revideo/2d/nodeName');
+export const NODE_NAME = Symbol.for('@flammable7841/2d/nodeName');
 
 /**
  * @internal

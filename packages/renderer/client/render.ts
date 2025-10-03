@@ -1,10 +1,10 @@
-import type {Project, RenderVideoUserProjectSettings} from '@revideo/core';
+import type {Project, RenderVideoUserProjectSettings} from '@flammable7841/core';
 import {
   Color,
   Renderer,
   Vector2,
   getFullRenderingSettings,
-} from '@revideo/core';
+} from '@flammable7841/core';
 
 declare global {
   interface Window {

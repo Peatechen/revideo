@@ -1,5 +1,5 @@
-import type {PossibleVector2, Signal} from '@revideo/core';
-import {Vector2} from '@revideo/core';
+import type {PossibleVector2, Signal} from '@flammable7841/core';
+import {Vector2} from '@flammable7841/core';
 import type {Length} from '../partials';
 import {compound} from './compound';
 import {wrapper} from './signal';

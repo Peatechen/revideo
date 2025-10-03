@@ -35,7 +35,7 @@ export function projectsPlugin({
         },
         esbuild: {
           jsx: 'automatic',
-          jsxImportSource: '@revideo/2d/lib',
+          jsxImportSource: '@flammable7841/2d/lib',
         },
         optimizeDeps: {
           entries: projects.list.map(project => project.url),

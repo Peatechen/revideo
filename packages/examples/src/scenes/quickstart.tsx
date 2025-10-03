@@ -1,5 +1,5 @@
-import {Circle, makeScene2D} from '@revideo/2d';
-import {all, createRef} from '@revideo/core';
+import {Circle, makeScene2D} from '@flammable7841/2d';
+import {all, createRef} from '@flammable7841/core';
 
 export default makeScene2D('quickstart', function* (view) {
   const myCircle = createRef<Circle>();

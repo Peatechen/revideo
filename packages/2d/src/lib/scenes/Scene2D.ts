@@ -6,14 +6,14 @@ import type {
   InspectedElement,
   Scene,
   ThreadGeneratorFactory,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import {
   GeneratorScene,
   SceneRenderEvent,
   Vector2,
   transformVectorAsPoint,
   useLogger,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import type {Node} from '../components';
 import {Audio, Media, Video, View2D} from '../components';
 

@@ -12,7 +12,7 @@ export const defaultUserProjectSettings: UserProjectSettings = {
   },
   rendering: {
     exporter: {
-      name: '@revideo/core/wasm',
+      name: '@flammable7841/core/wasm',
     },
     fps: 30,
     resolutionScale: 1,
@@ -67,7 +67,7 @@ export function makeProject(project: UserProject): Project {
 }
 
 export async function addEditorToProject(project: Project) {
-  const url = '/@id/@revideo/2d/editor';
+  const url = '/@id/@flammable7841/2d/editor';
   const imported = await import(
     /* webpackIgnore: true */ /* @vite-ignore */ url
   );

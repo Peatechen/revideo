@@ -1,5 +1,5 @@
-import type {SignalValue, WebGLConvertible} from '@revideo/core';
-import {experimentalLog, useLogger, useScene} from '@revideo/core';
+import type {SignalValue, WebGLConvertible} from '@flammable7841/core';
+import {experimentalLog, useLogger, useScene} from '@flammable7841/core';
 import type {Node} from '../components';
 
 /**
@@ -16,7 +16,7 @@ export interface ShaderConfig {
    * #version 300 es
    * precision highp float;
    *
-   * #include "@revideo/core/shaders/common.glsl"
+   * #include "@flammable7841/core/shaders/common.glsl"
    *
    * void main() {
    *     out_color = texture(core_source_tx, source_uv);

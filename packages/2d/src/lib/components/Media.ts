@@ -1,4 +1,4 @@
-import type {SignalValue, SimpleSignal} from '@revideo/core';
+import type {SignalValue, SimpleSignal} from '@flammable7841/core';
 import {
   DependencyContext,
   PlaybackState,
@@ -6,7 +6,7 @@ import {
   isReactive,
   useLogger,
   useThread,
-} from '@revideo/core';
+} from '@flammable7841/core';
 import {computed, initial, nodeName, signal} from '../decorators';
 import type {RectProps} from './Rect';
 import {Rect} from './Rect';

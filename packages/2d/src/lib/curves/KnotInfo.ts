@@ -1,4 +1,4 @@
-import type {Vector2} from '@revideo/core';
+import type {Vector2} from '@flammable7841/core';
 
 export type KnotAutoHandles = {start: number; end: number};
 

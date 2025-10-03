@@ -1,4 +1,4 @@
-import {Vector2, clamp} from '@revideo/core';
+import {Vector2, clamp} from '@flammable7841/core';
 import type {CurvePoint} from './CurvePoint';
 import {Segment} from './Segment';
 

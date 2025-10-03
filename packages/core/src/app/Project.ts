@@ -24,15 +24,15 @@ export function createVersionObject(version: string) {
 
 export type ExporterSettings =
   | {
-      name: '@revideo/core/image-sequence';
+      name: '@flammable7841/core/image-sequence';
       options: ImageExporterOptions;
     }
   | {
-      name: '@revideo/core/ffmpeg';
+      name: '@flammable7841/core/ffmpeg';
       options: FfmpegExporterOptions;
     }
   | {
-      name: '@revideo/core/wasm';
+      name: '@flammable7841/core/wasm';
     };
 
 // Project settings that are used internally
