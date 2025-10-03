@@ -1,6 +1,6 @@
 {
   "name": "@flammable7841/ffmpeg",
-  "version": "0.10.4",
+  "version": "1.0.0",
   "description": "Ffmpeg utilities for revideo",
   "main": "dist/index.js",
   "author": "revideo",
@@ -17,8 +17,8 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@ffprobe-installer/ffprobe": "^2.0.0",
-    "@flammable7841/core": "0.10.4",
-    "@flammable7841/telemetry": "0.10.4",
+    "@flammable7841/core": "1.0.0",
+    "@flammable7841/telemetry": "1.0.0",
     "fluent-ffmpeg": "^2.1.2",
     "uuid": "^10.0.0"
   },

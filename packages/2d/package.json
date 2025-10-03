@@ -1,6 +1,6 @@
 {
   "name": "@flammable7841/2d",
-  "version": "0.10.4",
+  "version": "1.0.0",
   "description": "A 2D renderer for revideo",
   "author": "revideo",
   "homepage": "https://re.video/",
@@ -28,8 +28,8 @@
     "tsconfig.project.json"
   ],
   "devDependencies": {
+    "@flammable7841/ui": "1.0.0",
     "@preact/signals": "^1.2.1",
-    "@flammable7841/ui": "0.10.4",
     "@rollup/plugin-node-resolve": "^15.2.4",
     "@rollup/plugin-typescript": "^12.1.0",
     "clsx": "^2.0.0",
@@ -39,9 +39,9 @@
   },
   "dependencies": {
     "@codemirror/language": "^6.10.1",
+    "@flammable7841/core": "1.0.0",
     "@lezer/common": "^1.2.1",
     "@lezer/highlight": "^1.2.0",
-    "@flammable7841/core": "0.10.4",
     "@rive-app/canvas-advanced": "2.7.3",
     "code-fns": "^0.8.2",
     "hls.js": "^1.5.11",

@@ -1,6 +1,6 @@
 {
   "name": "@flammable7841/cli",
-  "version": "0.10.4",
+  "version": "1.0.0",
   "description": "A CLI for revideo",
   "main": "dist/index.js",
   "author": "revideo",
@@ -25,9 +25,9 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@flammable7841/renderer": "0.10.4",
-    "@flammable7841/telemetry": "0.10.4",
-    "@flammable7841/vite-plugin": "0.10.4",
+    "@flammable7841/renderer": "1.0.0",
+    "@flammable7841/telemetry": "1.0.0",
+    "@flammable7841/vite-plugin": "1.0.0",
     "chokidar": "^3.5.3",
     "commander": "^12.0.0",
     "cors": "^2.8.5",
