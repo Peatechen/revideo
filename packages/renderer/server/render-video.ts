@@ -370,7 +370,7 @@ async function cleanup(
 const defaultSettings: RenderSettings = {
   projectSettings: {
     exporter: {
-      name: '@flammable7841/core/wasm',
+      name: '@revideo/core/wasm',
     },
   },
 };
